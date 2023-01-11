@@ -18,5 +18,19 @@ main()
 
   print(numeroFlotante);
 
+  //Booleanos(verdadero / falso / null)
+  //bool valorBooleano = true;
 
+  // if(valorBooleano){
+  //   print('Esta activo');
+  // } else{
+  //   print('No esta activo');
+  // }
+
+  //Null Safety
+  /*Con null safety nuestras variables no aceptan valores nulos a menos que se especifique explicitamente que esta va a tener un valor nulo*/
+  bool? valorNulo = null;/*Con bool? definimos si un valor es nulo*/
+
+  print(valorNulo);
+ 
 }
