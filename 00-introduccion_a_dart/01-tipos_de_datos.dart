@@ -33,4 +33,18 @@ main()
 
   print(valorNulo);
  
+  //Listas
+  /*Coleccion de elementos que tienen un tipo de dato en comun */
+  List listaDeNumeros = [1,2,3,4,5,6,7,8,9,10,11,12];/*Acepta varios tipos de datos*/
+  List<int> listaDeEnteros = [1,2,3,4,5,6,7,8,];/*Acepta solo datos enteros*/
+  List<String> listaDeCadenas = ['pepe', 'Luis', 'Juan'];/*Solo acepta datos de tipo string*/
+  
+  /*Por defecto List es de tipo dynamic, est significa que hacepta varios tipos de datos dentro de la lista*/
+
+  listaDeNumeros.add(13);//Agregamos un elemento a la lista
+
+  print(listaDeNumeros);//Acceder a los valores de la lista
+  print(listaDeNumeros[3]);//Accedemos a un valor de la lista
+  print(listaDeEnteros);
+  print(listaDeCadenas);
 }
