@@ -47,4 +47,16 @@ main()
   print(listaDeNumeros[3]);//Accedemos a un valor de la lista
   print(listaDeEnteros);
   print(listaDeCadenas);
+
+  //Tipo de dato Map
+  /*Tipo de dato con pares clave valor*/
+  Map persona = {
+    'nombre': 'Nombre',
+    'edad': 'Edad',
+    'casado': true
+  };
+
+  print(persona);//Acceder a los valores del Map
+  print(persona['edad']);//Para acceder a un elemento del Map tenemos que poner el nombre de la llave entre corchetes
+  
 }
