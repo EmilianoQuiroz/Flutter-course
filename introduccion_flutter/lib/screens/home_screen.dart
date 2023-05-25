@@ -1,12 +1,14 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Hola Desde la pantalla home'),
+    return const Scaffold(
+      body: Center(
+        child: Text('HomeScreen'),
+      ),
     );
   }
 }
