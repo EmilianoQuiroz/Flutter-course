@@ -21,29 +21,29 @@ abstract class Acuatico{
 }
 
 //Clase por cada animal con su tipo y caracteristica
-class Delfin extends Mamifero with Acuatico{}/*Con "width" podemos mixear nuestra clase mamifero con la clase acuatico*/
-class Murcielago extends Mamifero with Terrestre, Volador{}/*Podemos agregar las clases que sean necesarias*/
-class Gato extends Mamifero with Terrestre{}
-class Pato extends Ave with Terrestre, Volador, Acuatico{}
-class Tiburon extends Pez with Acuatico{}
+// class Delfin extends Mamifero with Acuatico{}/*Con "width" podemos mixear nuestra clase mamifero con la clase acuatico*/
+// class Murcielago extends Mamifero with Terrestre, Volador{}/*Podemos agregar las clases que sean necesarias*/
+// class Gato extends Mamifero with Terrestre{}
+// class Pato extends Ave with Terrestre, Volador, Acuatico{}
+// class Tiburon extends Pez with Acuatico{}
 
 //Clase principal
 void main()
 {
 
-  final flipper = new Delfin();
-  final bath = new Murcielago();
-  final cat = new Gato();
-  final duck = new Pato();
-  final shark = new Tiburon();
+  // final flipper = new Delfin();
+  // final bath = new Murcielago();
+  // final cat = new Gato();
+  // final duck = new Pato();
+  // final shark = new Tiburon();
 
-  flipper.nadar();
-  bath.caminar();
-  bath.volar();
-  cat.caminar();
-  duck.caminar();
-  duck.volar();
-  duck.nadar();
-  shark.nadar();
+  // flipper.nadar();
+  // bath.caminar();
+  // bath.volar();
+  // cat.caminar();
+  // duck.caminar();
+  // duck.volar();
+  // duck.nadar();
+  // shark.nadar();
 
 }
